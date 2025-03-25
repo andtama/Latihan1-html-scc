@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .artikel {
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 20px auto; 
+    padding: 20px;
+    width: 80%;
+    max-width: 900px;
+  }
+  
+  .artikel-pertama {
+    background-color: #74e6f8;
+  }
+  
+  .artikel-kedua {
+    background-color: #5ffe5f; 
+  }
+  
+  .gambar-artikel {
+    width: 200px;        
+    margin-bottom: 20px;
+    border-radius: 5px;  
+  }
+  
+  .gambar-kiri {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .gambar-kanan {
+    float: right;
+    margin-left: 20px;
+  }
+  
+  .artikel::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .artikel p {
+    text-align: justify;
+  }
+  
